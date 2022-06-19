@@ -10,9 +10,10 @@ function App() {
       <hr />
       <Routes>
       <Route path="/red" element={<RedPage />} />
+      <Route path="/blue" element={<BluePage />} />
       </Routes>
     </div>
-  );
+  )
 }
 
 export default App;
